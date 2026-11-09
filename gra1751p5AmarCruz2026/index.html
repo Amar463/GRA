@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<title>Sephora T-Shirt Page</title>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family-Poppins");
+
+wrapper {
+    width: 1366px;
+}
+nav {
+    height: 106px;
+}
+li {
+    display: inline-block;
+    font-weight: 100;
+    font-family: Gadugi;
+    margin-top: 0px;
+    font-size: 45px;
+    text-align: left;
+    font-style: normal;
+    color: rgba(0,0,0,1.00);
+    padding-left: 19px;
+}
+ul {
+    position: absolute;
+    top: 30px;
+    left: -34px;
+    display: inline-block;
+}
+#logo {
+    position: absolute;
+    top: 52px;
+    left: 600px;
+}
+#searchbutton {
+    position: absolute;
+    float: right;
+    top: -252px;
+    width: 40px;
+    right: 100px;
+}
+#shopBag {
+    position: absolute;
+    width: 40px;
+    top: 59px;
+    right: 33px;
+}
+.footer {
+    text-align: center;
+    color: #9a9a9a;
+    font-family: Gadugi;
+    font-size: x-large;
+}
+.navtree  {
+    font-size: 23px;
+    display: inline-block;
+    color: rgba(0,0,0,1.00);
+    font-family: Gadugi;
+    position: relative;
+    top: -13px;
+    left: 22px;
+    margin-bottom: -47px;
+}
+.shirtbox {
+    border-width: thin;
+    border-style: solid;
+    width: 527px;
+    height: 567px;
+    position: relative;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-left: 48px;
+}
+#whitetshirt {
+    position: absolute;
+    visibility: visible;
+}
+#blueshirt {
+    position: absolute;
+    visibility: hidden;
+}
+#redshirt {
+    position: absolute;
+    visibility: hidden;
+}
+aside {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+main {
+    position: relative;
+}
+section {
+    position: absolute;
+    top: -25px;
+    left: 626px;
+    font-family: Nunito;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+main section p {
+    font-weight: 600;
+    margin-top: -21px;
+}
+#Buttonset1 #Button1 {
+    border-width: thick;
+    padding: 20px;
+    border-radius: 50%;
+    border-style: solid;
+}
+#Buttonset1 #Button2 {
+    border-width: thick;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: #0054fe;
+}
+#Buttonset1 #Button3 {
+    border-width: thick;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgba(255,0,4,1.00);
+}
+</style>
+<link href="css/bootstrap-5.3.8.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-3.7.1.min.js"></script>
+<script src="jQueryAssets/jquery-ui.min.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+function MM_DW_effectScale(obj,method,effect,dir,originY,originX,per,size,speed)
+{
+    obj[method](effect, { direction: dir, origin: [originY, originX], percent: per, scale: size }, speed);
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/whiteBack.png','images/blueBack.png','images/redBack.png')">
+<wrapper>
+  <nav>
+    <ul class="navBar">
+      <a href="#"><li>New</li></a>
+	  <a href="#"><li>Men</li></a>
+	  <a href="#"><li>Women</li></a>
+	  <a href="#"><li>Kids</li></a>
+    </ul>
+    <img src="images/logo.png" alt="" width="382" height="50" id="logo"/>
+	<svg xmlns="http://www.w3.org/2000/svg" id="searchbutton" width="666.67" height="666.67" viewBox="0 0 666.67 666.67" data-name="Layer 1">
+  		<path d="M459.85,460.37l173.48,172.96M533.33,283.33c0,138.07-111.93,250-250,250S33.33,421.4,33.33,283.33,145.26,33.33,283.33,33.33s250,111.93,250,250Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="66.67"/>
+	</svg>
+  	<img src="images/shopping-bag.svg" alt="" id="shopBag"/> 
+  </nav>
+	<hr>
+  <nav class="navtree">
+	  <p>Home / Mens / Shirt</p>
+  </nav>
+	<hr>
+    <main>
+      <aside>
+        <div class="shirtbox" width="527" height="633">
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('whitetshirt','','images/whiteBack.png',1)"><img src="images/whiteFront.png" alt="white tshirt" width="524" height="567" id="whitetshirt"></a>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('blueshirt','','images/blueBack.png',1)"><img src="images/blueFront.png" alt="" width="524" height="567" id="blueshirt"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('redshirt','','images/redBack.png',1)"><img src="images/redFront.png" alt="red tshirt" width="524" height="567" id="redshirt"></a>
+        </div>
+      </aside>
+      <section>
+		  <h1>T-Shirt</h1>
+		  <p>$9.99</p>
+        <h2>Details</h2>
+	    <p> A basic tee for you to relax in,<br>
+			  lounge around the house in, and<br>
+			  even catch up with that show you've<br> 
+			  been meaning to watch in.
+	    </p>
+	    <h2>Colors</h2>
+	    <div id="Buttonset1">
+	      <button id="Button1" onClick="MM_showHideLayers('whitetshirt','','show','blueshirt','','hide','redshirt','','hide')"></button>
+	      <button id="Button2" onClick="MM_showHideLayers('whitetshirt','','hide','blueshirt','','show','redshirt','','hide')"></button>
+	      <button id="Button3" onClick="MM_showHideLayers('whitetshirt','','hide','blueshirt','','hide','redshirt','','show')"></button>
+        </div>
+	    <h2>Sie:</h2>
+	    <div id="Buttonset2">
+		    <button id="Button4">XS</button>
+		    <button id="Button5">S</button>
+		    <button id="Button6">M</button>
+			<button id="Button7">L</button>
+			<button id="Button8">XL</button>
+	    </div>
+	    <button id="Button9" onClick="MM_DW_effectScale($('#Button9'),'show','scale','both','middle','center',30,'both',1000)">ADD TO CART</button>
+      </section>
+    </main>
+	<hr>
+<footer class="footer">
+	  © 2026, Amar Cruz. This is a fictitious web page created solely for the purpose of education and training.<br>
+	  All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or<br>
+	  people is purely coincidental. Information provided about the product is also fictitious and should not be construed to <br>
+	  be representative of actual products on the market in a similar product category.
+  </footer>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Buttonset1" ).buttonset(); 
+});
+$(function() {
+	$( "#Buttonset2" ).buttonset(); 
+});
+$(function() {
+	$( "#Button9" ).button(); 
+});
+</script>
+</body>
+</html>
