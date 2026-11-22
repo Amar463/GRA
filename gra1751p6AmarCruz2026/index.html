@@ -1,0 +1,600 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://use.typekit.net/avq8vhz.css">
+<meta charset="utf-8">
+<title>Horizon Air</title>
+	<!-- jQuery core library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- jQuery UI library -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script src="jQueryAssets/jquery-3.7.1.min.js"></script>
+    <script src="jQueryAssets/jquery-ui.min.js"></script>
+
+    <!-- jQuery UI CSS theme -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    height: 1024px;
+}
+header {
+    width: auto;
+    height: 132px;
+    background-color: rgba(55,93,129,0.65);
+    position: relative;
+    margin-top: -48px;
+    border-bottom: thick solid rgba(24,49,82,0.65);
+}
+wrapper header h1 {
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: rgba(255,255,255,1.00);
+    position: relative;
+    margin-left: 31px;
+    padding-top: 30px;
+}
+wrapper header img {
+    color: rgba(255,255,255,1.00);
+    width: auto;
+    height: 107px;
+    display: inline-block;
+    position: relative;
+    left: 316px;
+    top: -130px;
+    margin-left: 9px;
+}
+footer {
+    width: auto;
+    height: 132px;
+    position: relative;
+    background-color: rgba(55,93,129,0.65);
+    border-top: thick solid rgba(24,49,82,0.65);
+    margin-top: 16px;
+    bottom: 0px;
+}
+footer p {
+    font-family: "myriad-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: rgba(255,255,255,1.00);
+    margin-left: 26px;
+    margin-top: 19px;
+}
+main {
+    width: auto;
+    height: 1024px;
+    background-image: url(images/background.png);
+    margin-top: -133px;
+    margin-bottom: -150px;
+}
+#box {
+    border-width: 8.333px;
+    border-color: rgb(171, 200, 226);
+    border-style: solid;
+    background-color: rgba(196,215,237,0.92);
+    opacity: 1;
+    width: 1005.334px;
+    position: relative;
+    margin: 0 auto;
+    top: 209px;
+    border-radius: 4px;
+    display: block;
+}
+#Tabs1 ul {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+    color: rgba(255,255,255,1.00);
+}
+#Tabs1 {
+    background-image: none;
+    border: none;
+    background-color: transparent;
+    color: rgba(255,255,255,1.00);
+}
+#tabs-1 {
+    margin-bottom: -12px;
+}
+#Tabs1 li {
+    border: 4.903px solid rgba(24,49,82,0.66);
+    border-radius: 11px;
+    background-color: rgba(55,93,129,0.66);
+    width: 101.194px;
+    height: 101.194px;
+    z-index: 201;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+    color: rgba(255,255,255,0.66);
+    position: relative;
+    left: 20%;
+}
+#Tabs1 li:hover {
+    background-color: rgba(55,93,129,1.00);
+    border-color: rgba(24,49,82,1.00);
+}
+#Tabs1 li:active {
+    background-color: #813740;
+    border-color: #521818;
+}
+#box .ui-tabs-active a{
+    background-color: #813740;
+    border-radius: 11px;
+    border: 4.903px solid #521818;
+    position: absolute;
+    left: -4%;
+    top: -5px;
+	}
+#Tabs1 a {
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+	font-family: "myriad-pro", sans-serif;
+	}
+.round-trip-button {
+    border-radius: 13px;
+    background-color: rgb(129, 55, 64);
+    width: 161px;
+    height: 53px;
+    font-size: 16.667px;
+    font-family: "myriad-pro";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    line-height: 51px;
+    position: relative;
+    left: 14px;
+}
+.top-form-text {
+    font-size: 14px;
+    color: rgb(24, 49, 82);
+    line-height: 1;
+    text-align: left;
+    font-family: "myriad-pro";
+    position: relative;
+    top: 8px;
+    padding: auto;
+    left: 12px;
+}
+.flying-from-section {
+}
+.top-forms {
+    left: 125px;
+    margin-bottom: -97px;
+    position: relative;
+}
+.flying-to-section {
+    position: relative;
+    left: 370px;
+    top: -96px;
+}
+
+
+.top-form-field {
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    width: 356px;
+    height: 61px;
+    z-index: 45;
+    border-width: thin;
+    border-style: none;
+    text-indent: 11px;
+}
+.top-form-field2 {
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    width: 721px;
+    height: 61px;
+    z-index: 45;
+    border-width: thin;
+    border-style: none;
+    text-indent: 11px;
+	
+}
+
+.middle-form-field {
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    width: 193px;
+    height: 61px;
+    border-style: none;
+    text-indent: 7px;
+}
+.middle-forms {
+    display: inline-block;
+    top: -10px;
+    font-family: myriad-pro;
+    color: #989898;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: -97px;
+    position: relative;
+    left: 291px;
+}
+.middle-forms2 {
+    display: inline-block;
+    top: 86px;
+    font-family: myriad-pro;
+    color: #989898;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: -58px;
+    position: relative;
+    left: 291px;
+}
+.middle-forms3 {
+    display: inline-block;
+    top: 86px;
+    font-family: myriad-pro;
+    color: #989898;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 8px;
+    position: relative;
+    left: 291px;
+}
+.middle-forms4 {
+    display: inline-block;
+    top: 86px;
+    font-family: myriad-pro;
+    color: #989898;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 8px;
+    position: relative;
+    left: 291px;
+    margin-top: -96px;
+}
+.returning-field {
+    position: relative;
+    top: -94px;
+    left: 204px;
+}
+.last-forms {
+    top: -90px;
+    position: relative;
+    margin-bottom: -155px;
+    left: 366px;
+}
+.last-forms2 {
+    top: 4px;
+    position: relative;
+    margin-bottom: -155px;
+    left: 302px;
+}
+.adults-field {
+}
+.last-values {
+    height: 61px;
+    width: 119px;
+    text-align: center;
+    border-style: none;
+    border-radius: 13px;
+    text-indent: 5px;
+    font-weight: bold;
+}
+.children-form {
+    position: relative;
+    left: 130px;
+    top: -94px;
+}
+.rooms-form {
+    position: relative;
+    left: 260px;
+    top: -188px;
+    opacity: 1;
+}
+
+
+.search-button {
+    border-radius: 13px;
+    background-color: rgb(129, 55, 64);
+    width: 119px;
+    height: 29px;
+    z-index: 41;
+    position: relative;
+    color: rgba(255,255,255,1.00);
+    font-family: "myriad-pro";
+    font-weight: normal;
+    border-style: none;
+    display: inline-block;
+    left: 427px;
+    margin-top: -145px;
+}
+
+}
+
+}
+.search-button-section2 {
+    margin-top: -33px;
+}
+</style>
+<link href="jQueryAssets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<wrapper>
+  <header>
+        <div>
+          <h1>Horizon Air</h1>
+          <img src="images/airplane-flight-svgrepo-com.svg" alt=""/>
+		 </div>
+      </header>
+		
+  <main>
+		  <div id="box">
+		    <div id="Tabs1">
+		      <ul>
+                <li><a href="#tabs-1"><img src="images/airplane-svgrepo-com%20(1).png" alt="" width="70" height="60"><br>
+                Flights</a></li>
+                <li><a href="#tabs-4"><img src="images/hotel-svgrepo-com.png" alt="" width="70" height="60"><br>
+                Hotels</a></li>
+                <li><a href="#tabs-5"><img src="images/cruise-ship-svgrepo-com.png" alt="" width="70" height="60"><br>
+                Cruises</a></li>
+                <li><a href="#tabs-2"><img src="images/car-side-svgrepo-com.png" alt="" width="70" height="60"><br>
+                Cars</a></li>
+		        <li><a href="#tabs-3"><img src="images/ticket-simple-svgrepo-com.png" alt="" width="70" height="60"><br>
+	            Activities</a></li>
+	          </ul>
+              <div id="tabs-1">
+				<section class="round-trip-button">ROUND TRIP</section>
+				<section class="top-forms">
+                    <section class="flying-from-section">
+                      <h1 class="top-form-text">FLYING FROM</h1>
+                      <input type="text" class="top-form-field" placeholder="City or Airport">
+                    </section>
+                    <section class="flying-to-section">
+                      <h1 class="top-form-text">FLYING TO</h1>
+                      <input type="text" class="top-form-field" placeholder="City or Airport">
+                    </section>
+				</section>
+				<section class="middle-forms">
+                 <section class="departing-field">
+                   <h1 class="top-form-text">DEPARTING</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+                 <section class="returning-field">
+                   <h1 class="top-form-text">RETURNING</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+				</section>
+				<section class="last-forms">
+                  <section class="adults-field">
+					  <h1 class="top-form-text">ADULTS (18+)</h1>
+                    <select class="last-values">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </section>
+                  <section class="children-form">
+					<h1 class="top-form-text">CHILDREN (0-17)</h1>
+                    <select class="last-values">
+						<option value="0">0</option>
+                      	<option value="1">1</option>
+                      	<option value="2">2</option>
+                      	<option value="3">3</option>
+                      	<option value="4">4</option>
+                      	<option value="5">5</option>
+                    </select>
+                  </section>
+				  
+                </section>
+				<section class="search-button-section"> 
+				
+			    <input type="submit" class="search-button" value="SEARCH">
+				
+				 </section>  
+			  </div>
+              <div id="tabs-4">
+				<section class="top-forms">
+                    <section class="flying-from-section">
+                      <h1 class="top-form-text">GOING TO</h1>
+                      <input type="text" class="top-form-field2" placeholder="Destination, Hotel Name, Airport, Train Station, Landmark, or Address">
+                    </section>
+                    
+				</section>
+				<section class="middle-forms2">
+                 <section class="departing-field">
+                   <h1 class="top-form-text">DEPARTING</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+                 <section class="returning-field">
+                   <h1 class="top-form-text">RETURNING</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+				</section>
+				<section class="last-forms2">
+                  <section class="adults-field">
+					  <h1 class="top-form-text">ADULTS (18+)</h1>
+                    <select class="last-values">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </section>
+                  <section class="children-form">
+					<h1 class="top-form-text">CHILDREN (0-17)</h1>
+                    <select class="last-values">
+						<option value="0">0</option>
+                      	<option value="1">1</option>
+                      	<option value="2">2</option>
+                      	<option value="3">3</option>
+                      	<option value="4">4</option>
+                      	<option value="5">5</option>
+                    </select>
+                  </section>
+                  <section class="rooms-form">
+                    <h1 class="top-form-text">ROOMS</h1>
+                    <select name="select" class="last-values">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </section>
+				  
+                </section>
+				<section class="search-button-section2"> 
+				
+			    <input type="submit" class="search-button" value="SEARCH">
+				
+				 </section>  
+              </div>
+              <div id="tabs-5">
+                <section class="top-forms">
+                    <section class="flying-from-section">
+                      <h1 class="top-form-text">GOING TO</h1>
+                      <input type="text" class="top-form-field2" placeholder="Select Destination">
+                    </section>
+                    
+				</section>
+				<section class="middle-forms2">
+                 <section class="departing-field">
+                   <h1 class="top-form-text">DEPARTING</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+                 <section class="returning-field">
+                   <h1 class="top-form-text">RETURNING</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+				</section>
+				<section class="last-forms2">
+                  <section class="adults-field">
+					  <h1 class="top-form-text">ADULTS (18+)</h1>
+                    <select class="last-values">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </section>
+                  <section class="children-form">
+					<h1 class="top-form-text">CHILDREN (0-17)</h1>
+                    <select class="last-values">
+						<option value="0">0</option>
+                      	<option value="1">1</option>
+                      	<option value="2">2</option>
+                      	<option value="3">3</option>
+                      	<option value="4">4</option>
+                      	<option value="5">5</option>
+                    </select>
+                  </section>
+                  <section class="rooms-form">
+                    <h1 class="top-form-text">CABINS</h1>
+                    <select name="select" class="last-values">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+                  </section>
+				  
+                </section>
+				<section class="search-button-section2"> 
+				
+			    <input type="submit" class="search-button" value="SEARCH">
+				
+				 </section> 
+              </div>
+              <div id="tabs-2">
+		        <section class="top-forms">
+                    <section class="flying-from-section">
+                      <h1 class="top-form-text">PICKING UP</h1>
+                      <input type="text" class="top-form-field" placeholder="City, Airport, or Address">
+                    </section>
+                    <section class="flying-to-section">
+                      <h1 class="top-form-text">DROPPING OFF</h1>
+                      <input type="text" class="top-form-field" placeholder="City, Airport, or Address">
+                    </section>
+				</section>
+				<section class="middle-forms4">
+                 <section class="departing-field">
+                   <h1 class="top-form-text">DEPARTING</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+                 <section class="returning-field">
+                   <h1 class="top-form-text">RETURNING</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+				</section>
+				  <section class="search-button-section"> 
+				
+			    <input type="submit" class="search-button" value="SEARCH">
+				
+				 </section>
+	          </div>
+		      <div id="tabs-3">
+		        <section class="top-forms">
+                    <section class="flying-from-section">
+                      <h1 class="top-form-text">DESTINATION</h1>
+                      <input type="text" class="top-form-field2" placeholder="City">
+                    </section>
+				</section>
+				<section class="middle-forms3">
+                 <section class="departing-field">
+                   <h1 class="top-form-text">FROM</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+                 <section class="returning-field">
+                   <h1 class="top-form-text">TO</h1>
+                   <input type="date" class="middle-form-field" placeholder="mm/dd/yyyy">
+                 </section>
+				</section>
+				  <section class="search-button-section"> 
+				
+			    <input type="submit" class="search-button" value="SEARCH">
+				
+				 </section>
+	          </div>
+	        </div>
+          </div>
+	  </main>
+		
+	  <footer>
+		 <p> © 2026, Amar Cruz. <br>
+			This is a fictitious web page created solely for the purpose of education<br>
+		  	and training. All products and people associated with this web page are<br>
+			also fictitious. Any resemblance to real brands, products, or people is purely<br>
+			coincidental. Information provided about the product is also fictitious and <br>
+			should not be construed to be representative of actual products on the market<br>
+			in a similar product category.
+		</p>
+	  </footer>
+    </wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Button1" ).button(); 
+});
+</script>
+</body>
+</html>
