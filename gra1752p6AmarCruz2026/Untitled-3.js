@@ -600,9 +600,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_10.png", id:"CachedBmp_10"},
-		{src:"images/Untitled_3_atlas_1.png", id:"Untitled_3_atlas_1"},
-		{src:"images/Untitled_3_atlas_2.png", id:"Untitled_3_atlas_2"}
+		{src:"images/CachedBmp_10.png?1795545526800", id:"CachedBmp_10"},
+		{src:"images/Untitled_3_atlas_1.png?1795545526728", id:"Untitled_3_atlas_1"},
+		{src:"images/Untitled_3_atlas_2.png?1795545526728", id:"Untitled_3_atlas_2"}
 	],
 	preloads: []
 };
